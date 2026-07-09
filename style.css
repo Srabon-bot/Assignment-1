@@ -8,16 +8,91 @@ body {
     background: #FFFFFF;
 }
 
-header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    padding: 20px;
+/* common */
+
+.common-btn {
+    border-radius: 10px;
+    cursor: pointer;
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 40px;
+
 }
 
-header nav a {
+
+
+/* header section */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    list-style: none;
+}
+
+.header-btn-container {
+    justify-self: end;
+
+}
+
+.header-btn-container button {
+    font-size: 16px;
+}
+
+nav a {
     text-decoration: none;
     color: #575757;
     font-size: 16px;
+}
 
+/* hero section */
+
+.hero-container {
+    height: 786px;
+
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    
+}
+.hero-text{
+    color: white;
+}
+.hero-text h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.hero-text h1 span{
+    font-style: italic;
+}
+.hero-text p {
+    font-size: 22px;
+    max-width: 60ch;
+    margin-inline: auto;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.hero-btn{
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 60px;
 }
