@@ -238,6 +238,7 @@ nav a {
     border: 2px solid #2563EB;
     padding: 15px 125px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .pro .card-btn {
@@ -249,6 +250,7 @@ nav a {
     border: none;
     padding: 15px 125px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .card div {
@@ -315,3 +317,48 @@ nav a {
 .card #highlited {
     border-bottom: 2px solid #FFFFFF1A;
 }
+
+
+
+
+/* footer............................................... */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    padding: 40px 0;
+    color: #FFFFFF66;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+     margin: 0 20px;
+    border-bottom: 2px solid #FFFFFF66;
+}
+.top-right{
+   display: flex;
+   gap: 20px;
+}
+
+.top-right a img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.low-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    margin: 0 20px;
+}
+
+.low-right{
+    display: flex;
+    gap: 20px;
+}
+
