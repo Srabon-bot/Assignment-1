@@ -58,7 +58,21 @@ nav a {
 .hero-container {
     height: 786px;
 
-    background-image: url("./assets/banner.jpg");
+    /* background-image: url("./assets/banner.jpg"); */
+
+     background-image:
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0.6) 30%,
+            rgba(0, 0, 0, 0) 70%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(0, 0, 0, 0) 42%,
+            rgba(0, 0, 0, 0.88) 87%
+        ),
+        url("./assets/banner.jpg");
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,6 +99,7 @@ nav a {
     margin-inline: auto;
     line-height: 1.1;
     text-align: center;
+    color: #FFFFFFE6;
 }
 
 .hero-btn{
@@ -137,8 +152,8 @@ nav a {
 
 .topic{
     font-size: 12px;
-    color: #1D4ED8;
-    font-weight: semi-bold;
+    color: #2563EB;
+    font-weight: 600;
 }
 .name{
     font-size: 20px;
@@ -147,6 +162,7 @@ nav a {
 }
 .affiliation{
     font-size: 14px;
+    font-weight: 400;
     color: #575757;
 }
 
@@ -167,7 +183,7 @@ nav a {
 .card-container #card-discription{
     text-align: center;
     font-size: 16px;
-    font-weight: regular;
+    font-weight: 400;
     color: #575757;
     margin-bottom: 40px;
 }
@@ -234,7 +250,7 @@ nav a {
 }
 .card article h3{
     font-size: 13px;
-    font-weight: semi-bold;
+    font-weight: 600;
     margin-bottom: 5px;
     color: #888888;
       
@@ -249,7 +265,7 @@ nav a {
 }
 .card article .per{
     font-size: 13px;
-    font-weight: regular;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #888888;
     
@@ -257,7 +273,7 @@ nav a {
 
 .pro article h3{
     font-size: 13px;
-    font-weight: semi-bold;
+    font-weight: 600;
     margin-bottom: 5px;
     color: #93C5FD;
       
@@ -273,7 +289,7 @@ nav a {
 
 .pro article .per{
     font-size: 13px;
-    font-weight: regular;
+    font-weight: 400;
     margin-bottom: 20px;
     color: #FFFFFF80;
       
