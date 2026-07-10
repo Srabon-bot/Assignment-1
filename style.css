@@ -8,7 +8,7 @@ body {
     background: #FFFFFF;
 }
 
-/* common */
+/* common ..........................................*/
 
 .common-btn {
     border-radius: 10px;
@@ -22,7 +22,7 @@ body {
 
 
 
-/* header section */
+/* header section .......................................*/
 
 header {
     display: grid;
@@ -53,7 +53,7 @@ nav a {
     font-size: 16px;
 }
 
-/* hero section */
+/* hero section .........................................*/
 
 .hero-container {
     height: 786px;
@@ -97,7 +97,7 @@ nav a {
     padding: 20px 60px;
 }
 
-/* meet the speakers */
+/* meet the speakers .............................................*/
 .speakers-container {
     place-items: center;
     padding: 70px 0;
@@ -150,7 +150,7 @@ nav a {
     color: #575757;
 }
 
-/* secure your spot cards */
+/* secure your spot cards ................................*/
 
 .card-container {
     place-items: center;
@@ -182,7 +182,7 @@ nav a {
 .card{
     border: 2px solid #E5E7EB;
     list-style: none;
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     background-color: #FFFFFF;
 }
