@@ -24,10 +24,10 @@ Card Text  =  #333333
 Light Gray Background  =  #F8F9FB
 
 ### Prompt 4
-can you suggest a suitable place that can actuall host this event so that i can use that address in my code.
+can you suggest a suitable place that can actually host this event so that i can use that address in my code.
 
 ### Prompt 5
 how to get iframe src link of an address from google map
 
 ### Prompt 6
-can you give me svg code for the icons date, time, address with the page theme color to add in my code
+can you give me svg code for the icons of date, time, address with the page theme color to add in my code
