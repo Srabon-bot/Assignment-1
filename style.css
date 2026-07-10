@@ -411,7 +411,7 @@ nav a {
     color: #333333;
 }
 
-.venue-details .venue-eyebrow {
+.venue-details .venue-tag {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
@@ -458,7 +458,7 @@ nav a {
     stroke: #1D4ED8;
 }
 
-.venue-item-text .venue-label {
+.venue-item-text .label {
     font-size: 13px;
     font-weight: 700;
     color: #575757;
@@ -467,7 +467,7 @@ nav a {
     margin: 0 0 4px 0;
 }
 
-.venue-item-text .venue-value {
+.venue-item-text .value {
     font-size: 17px;
     font-weight: 600;
     color: #333333;
@@ -481,7 +481,7 @@ nav a {
     margin: 2px 0 0 0;
 }
 
-.venue-directions {
+.venue-cta {
     margin-top: 32px;
     display: inline-flex;
     align-items: center;
@@ -497,7 +497,7 @@ nav a {
     transition: background-color 0.2s ease;
 }
 
-.venue-directions:hover {
+.venue-cta:hover {
     background-color: #2563EB;
 }
 
@@ -515,9 +515,6 @@ nav a {
     }
 }
 
-.venue-cta{
-    text-decoration: none;
-}
 
 /* placeholder section end.......................................................................................... */
 
