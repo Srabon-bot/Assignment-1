@@ -149,3 +149,139 @@ nav a {
     font-size: 14px;
     color: #575757;
 }
+
+/* secure your spot cards */
+
+.card-container {
+    place-items: center;
+    margin-bottom: 130px;
+}
+
+.card-container h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+.card-container #card-discription{
+    text-align: center;
+    font-size: 16px;
+    font-weight: regular;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.card{
+    border: 2px solid #E5E7EB;
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.pro{
+    border: 2px solid #0D1B2A;
+    background-color: #0D1B2A;
+}
+.team{
+    background-color: #F8F9FB;
+}
+.card li{
+    list-style: none;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #333333;
+}
+.card li span{
+    color: #60A5FA;
+}
+
+.card-btn{
+    place-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background: white;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    padding: 15px 125px;
+    margin-top: 20px;
+}
+.pro .card-btn{
+    place-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 125px;
+    margin-top: 20px;
+}
+
+.card div{
+    display: grid;
+    place-items: center;
+}
+
+.card article{
+    border-bottom: 2px solid #E5E7EB;
+}
+.card article h3{
+    font-size: 13px;
+    font-weight: semi-bold;
+    margin-bottom: 5px;
+    color: #888888;
+      
+}
+
+.card article .price{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0D1B2A;
+      
+}
+.card article .per{
+    font-size: 13px;
+    font-weight: regular;
+    margin-bottom: 20px;
+    color: #888888;
+    
+}
+
+.pro article h3{
+    font-size: 13px;
+    font-weight: semi-bold;
+    margin-bottom: 5px;
+    color: #93C5FD;
+      
+}
+
+.pro article .price{
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+      
+}
+
+.pro article .per{
+    font-size: 13px;
+    font-weight: regular;
+    margin-bottom: 20px;
+    color: #FFFFFF80;
+      
+}
+.pro li{
+    color: #FFFFFFCC;
+}
+.card #highlited{
+    border-bottom: 2px solid #FFFFFF1A;
+}
+
