@@ -96,3 +96,56 @@ nav a {
     border: none;
     padding: 20px 60px;
 }
+
+/* meet the speakers */
+.speakers-container {
+    place-items: center;
+    padding: 70px 0;
+    margin-bottom: 60px;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1300px;
+    margin-inline: auto;
+}
+
+.speakers-grid div{
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+.speakers-grid div img{
+    border:none;
+    border-radius: 10px;
+}
+
+.speakers-container h2{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+    margin-bottom: 50px;
+}
+
+.speakers-text{
+    display: grid;
+    padding: 20px;
+    gap: 10px;
+}
+
+.topic{
+    font-size: 12px;
+    color: #1D4ED8;
+    font-weight: semi-bold;
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.affiliation{
+    font-size: 14px;
+    color: #575757;
+}
