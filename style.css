@@ -257,6 +257,10 @@ nav a {
     width: 100%;
 }
 
+.card-btn:hover {
+    background-color:rgb(202, 201, 201)
+}
+
 .pro .card-btn {
     place-items: center;
     border-radius: 10px;
@@ -267,6 +271,10 @@ nav a {
     padding: 15px 125px;
     margin-top: 20px;
     width: 100%;
+}
+
+.pro .card-btn:hover {
+    background-color: #2563EB;
 }
 
 .card div {
