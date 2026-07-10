@@ -23,7 +23,7 @@ body {
 
 
 
-/* header section .......................................*/
+/* header section .............................................................................................................................................................*/
 
 header {
     display: grid;
@@ -54,12 +54,13 @@ nav a {
     font-size: 16px;
 }
 
-/* hero section .........................................*/
+/* header section end............................................................................................................................................................. */
+
+
+/* hero banner section ...................................................................................................................................................*/
 
 .hero-container {
     height: 786px;
-
-    /* background-image: url("./assets/banner.jpg"); */
 
     background-image:
         linear-gradient(180deg,
@@ -113,7 +114,10 @@ nav a {
     padding: 20px 60px;
 }
 
-/* meet the speakers .............................................*/
+/* hero banner section end................................................................................................................................................... ......................*/
+
+
+/* meet the speakers ............................................................................................................................................................................*/
 .speakers-container {
     place-items: center;
     padding: 70px 0;
@@ -170,7 +174,10 @@ nav a {
     color: #575757;
 }
 
-/* secure your spot cards ................................*/
+/* meet the speakers section end......................................................................................................................... ..................*/
+
+
+/* secure your spot cards .....................................................................................................................................................*/
 
 .card-container {
     place-items: center;
@@ -318,10 +325,204 @@ nav a {
     border-bottom: 2px solid #FFFFFF1A;
 }
 
+/* secure your spot cards section end......................................................................................................................... */
 
 
 
-/* footer............................................... */
+/* placeholder venue and date section made with AI ........................................................................................................... */
+
+.venue-section {
+    background-color: #FFFFFF;
+    padding: 0 40px;
+    margin-bottom: 130px;
+}
+
+.venue-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.venue-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.venue-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+}
+
+.venue-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin-bottom: 40px;
+}
+
+.venue-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.venue-header h2 {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 42px;
+    color: #0D1B2A;
+    margin: 0 0 12px 0;
+}
+
+.venue-header p {
+    font-size: 16px;
+    color: #888888;
+    margin: 0;
+}
+
+.venue-card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8F9FB;
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.venue-map {
+    flex: 1 1 480px;
+    min-height: 420px;
+}
+
+.venue-map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+    border: 0;
+    display: block;
+}
+
+.venue-details {
+    flex: 1 1 420px;
+    padding: 56px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333333;
+}
+
+.venue-details .venue-eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1D4ED8;
+    margin-bottom: 16px;
+}
+
+.venue-details h3 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #0D1B2A;
+    margin: 0 0 32px 0;
+}
+
+.venue-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 20px 0;
+    border-top: 1px solid #E5E7EB;
+}
+
+.venue-item:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.venue-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #DBEAFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.venue-icon svg {
+    width: 22px;
+    height: 22px;
+    stroke: #1D4ED8;
+}
+
+.venue-item-text .venue-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #575757;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0 0 4px 0;
+}
+
+.venue-item-text .venue-value {
+    font-size: 17px;
+    font-weight: 600;
+    color: #333333;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.venue-item-text .venue-sub {
+    font-size: 14px;
+    color: #888888;
+    margin: 2px 0 0 0;
+}
+
+.venue-directions {
+    margin-top: 32px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    padding: 14px 28px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.venue-directions:hover {
+    background-color: #2563EB;
+}
+
+@media (max-width: 640px) {
+    .venue-section {
+        padding: 60px 20px;
+    }
+
+    .venue-header h2 {
+        font-size: 30px;
+    }
+
+    .venue-details {
+        padding: 40px 28px;
+    }
+}
+
+.venue-cta{
+    text-decoration: none;
+}
+
+/* placeholder section end.......................................................................................... */
+
+
+/* footer....................................................................................................... */
 
 .footer-container {
     display: flex;
@@ -332,33 +533,35 @@ nav a {
     color: #FFFFFF66;
 }
 
-.top-container{
+.top-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 80px;
-     margin: 0 20px;
+    margin: 0 20px;
     border-bottom: 2px solid #FFFFFF66;
 }
-.top-right{
-   display: flex;
-   gap: 20px;
+
+.top-right {
+    display: flex;
+    gap: 20px;
 }
 
-.top-right a img{
+.top-right a img {
     width: 30px;
     height: 30px;
     cursor: pointer;
 }
 
-.low-container{
+.low-container {
     display: flex;
     justify-content: space-between;
     padding: 20px 80px;
     margin: 0 20px;
 }
 
-.low-right{
+.low-right {
     display: flex;
     gap: 20px;
 }
 
+/* footer end.................................................................................................................................................... */
